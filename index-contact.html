@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Главная</title>
+</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__container">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a class="header__list-item-logo" href="index.html">
+            <img src="images/logo.svg" alt="НОТЭС" />
+          </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="index.html"> Главная </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="index-2.html"> Новости </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="index-docs.html">
+            Документация
+          </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="index-about.html">
+            О союзе
+          </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="index-sro.html"> Член СРО </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="index-contact.html">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+
+    
+  </div>
+</header>
+
+
+      <main class="page">
+        <div data-observ></div>
+        <div class="contact">
+  <div class="contact__container">
+    <h2 class="contact__head">Контакты</h2>
+    <div class="contact__content">
+      <p class="contact__content-item">notas-sro@yandex.ru</p>
+      <p class="contact__content-item">
+        121069, г. Москва, ул. Поварская, д. 10, стр. 1, офис 400, помещ. 23/1
+      </p>
+    </div>
+  </div>
+</div>
+ <div class="requisite">
+  <div class="requisite__container">
+    <h3 class="requisite__head">Реквизиты</h3>
+
+    <div class="requisite__item">
+      <p class="requisite__item-par">
+        Союз "Национальное Объединение Торговых Электронных Систем"
+      </p>
+    </div>
+    <div class="requisite__item">
+      <p class="requisite__item-par">ИНН: 9704216098</p>
+      <p class="requisite__item-par">КПП: 770401001</p>
+      <p class="requisite__item-par">ОГРН: 1237700465023</p>
+    </div>
+    <!-- <div class="requisite__item">
+      <p class="requisite__item-par">Р/с: 40701810902710000025</p>
+      <p class="requisite__item-par">Банк: АО «АЛЬФА-БАНК»</p>
+      <p class="requisite__item-par">БИК: 044525593</p>
+      <p class="requisite__item-par">К/с: 30101810200000000593</p>
+    </div> -->
+    <div class="requisite__item">
+      <p class="requisite__item-par">
+        Юридический адрес: 121596, г. Москва, ул. Горбунова, д. 2, стр. 204, эт.
+        8, помещ. II, ком. 7
+      </p>
+    </div>
+    <div class="requisite__item">
+    </div>
+  </div>
+</div>
+
+        <!-- <button data-type="popup-1" type="button">Открыть попап</button> -->
+      </main>
+
+      <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__main">
+      <img src="images/footerlogo.svg" alt="НОТЭС" class="footer__nav-logo" />
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-list-item"><a href="">Главная</a></li>
+          <li class="footer__nav-list-item"><a href="">Новости</a></li>
+          <li class="footer__nav-list-item"><a href="">Документация</a></li>
+          <li class="footer__nav-list-item"><a href="">О союзе</a></li>
+          <li class="footer__nav-list-item"><a href="">Членам СРО</a></li>
+          <li class="footer__nav-list-item"><a href="">Контакты</a></li>
+        </ul>
+        <p class="footer__nav-copyright">
+          2023 Союз «Национальное объединение торговых электронных систем»
+        </p>
+      </nav>
+    </div>
+
+    <div class="footer__contact">
+      <a href="mailto:notas-sro@yandex">notas-sro@yandex</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    <div class="popup" data-popup="popup-1" data-close-overlay>
+  <div class="popup__wrapper" data-close-overlay>
+    <div class="popup__content">
+      <button class="popup__close button-close" type="button">x</button>
+      <div class="popup__body">
+        <h2>Оставить заявку</h2>
+        <form>
+          <label for="Name">Имя</label>
+          <input type="text" placeholder="Введите..." name="Name" />
+          <label for="Surname">Фамилия</label>
+          <input type="text" placeholder="Введите..." name="Surname" />
+          <label for="Fathername">Отчество</label>
+          <input type="text" placeholder="Введите..." name="Fathername" />
+          <label for="Email">Почта</label>
+          <input type="email" placeholder="Введите..." name="Email" />
+          <label for="Phone">Телефон</label>
+          <input type="tel" placeholder="Введите..." name="Phone" />
+          <label for="Description">Описание</label>
+          <textarea
+            name="Description"
+            id="Description"
+            cols="30"
+            rows="10"
+            placeholder="Введите пожелания"
+          ></textarea>
+          <button class="btn third">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+ <script src="js/app.min.js"></script>
+
+  </body>
+</html>
